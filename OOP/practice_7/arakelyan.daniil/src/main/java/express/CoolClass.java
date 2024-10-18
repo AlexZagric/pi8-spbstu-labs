@@ -18,6 +18,7 @@ public class CoolClass {
       Class someClass = Class.forName(className);
       Object instanse = someClass.getDeclaredConstructor().newInstance();
       Method[] methods = someClass.getDeclaredMethods();
+
       for (var method : methods) {
         if (Modifier.isPrivate(method.getModifiers()) ||
             Modifier.isProtected(method.getModifiers())) {
