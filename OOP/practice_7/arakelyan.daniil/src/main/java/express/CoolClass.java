@@ -14,6 +14,7 @@ public class CoolClass {
 
     try {
       logger.info("starting creating methods from some class");
+
       Class someClass = Class.forName(className);
       Object instanse = someClass.getDeclaredConstructor().newInstance();
       Method[] methods = someClass.getDeclaredMethods();
