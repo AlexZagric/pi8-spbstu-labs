@@ -7,7 +7,7 @@ jobs:
   check-dirs:
     runs-on: ubuntu-latest
     outputs:
-      dirs: steps.changes.outputs.dirs
+      dirs: ${{ steps.changes.outputs.dirs }}
     steps:
       - name: Checkout 
         uses: actions/checkout@v4
