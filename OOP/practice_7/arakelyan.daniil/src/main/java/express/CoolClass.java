@@ -6,7 +6,6 @@ import java.lang.reflect.Modifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 public class CoolClass {
 
   private static final Logger logger = LogManager.getLogger(CoolClass.class);
