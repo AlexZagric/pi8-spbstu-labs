@@ -37,7 +37,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    if: ${{ needs.check-dirs.outputs.dirs }} != 'no-dirs'
+    if: ${{ needs.check-dirs.outputs.dirs != 'no-dirs' }} 
     needs: check-dirs
     steps:
       - name: Checkout 
