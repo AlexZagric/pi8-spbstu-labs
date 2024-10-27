@@ -18,7 +18,6 @@ public class Main {
                 else result.put(c, result.get(c) + 1);
             }
         }
-
         System.out.println(result.toString());
     }
 }
