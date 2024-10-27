@@ -11,7 +11,6 @@ mov ax, @data
 mov ds, ax
 mov es, ax
 endm
-
 .CODE
 start: mcr
 mov cx, 10
