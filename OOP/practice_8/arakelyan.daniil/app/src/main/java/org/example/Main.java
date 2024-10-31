@@ -7,7 +7,6 @@ import java.util.logging.*;
 public class Main {
 
   public static FileHandler fh;
-
   private static final Logger logger = Logger.getLogger(Main.class.getName());
   static {
     SimpleFormatter formatter = new SimpleFormatter();
