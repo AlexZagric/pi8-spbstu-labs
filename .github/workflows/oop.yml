@@ -49,7 +49,7 @@ jobs:
             echo "No relevant changes found"
             echo "dirs=no-dirs" >> $GITHUB_OUTPUT
             exit 0
-          fi
+          fi 
 
   build:
     runs-on: ubuntu-latest
